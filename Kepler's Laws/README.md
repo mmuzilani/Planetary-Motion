@@ -1,38 +1,32 @@
-Kepler's Laws Visualization in Python
+# Kepler's Laws Visualization in Python
 
-This Python program demonstrates Kepler’s First and Second Laws of planetary motion using simple geometric visualization.
+This Python program demonstrates **Kepler’s First and Second Laws** of planetary motion using simple geometric visualization.
 
-Kepler’s First Law: Planet moves in an ellipse with the star at one focus.
+- **First Law:** Planet moves in an **ellipse** with the star at one focus.  
+- **Second Law:** Planet moves **faster when closer to the star** and slower when farther away.
 
-Kepler’s Second Law: The planet moves faster when it is near the star and slower when it is farther away.
-Features
+## Features
 
-First Law Visualization
+1. **First Law Visualization**
+   - Draws an **elliptical orbit**.
+   - Star positioned at one focus.
+   - User inputs: semi-major axis `a`, semi-minor axis `b`, star position (focus).
 
-Draws an elliptical orbit.
+2. **Second Law Visualization**
+   - Shows **speed variation** along the orbit using a color map.
+   - Same inputs as above.
 
-The star is positioned at one focus.
+3.  The program generates two plots:
 
-Inputs:
+Elliptical orbit (First Law)
 
-Semi-major axis a
+Orbit with speed variation (Second Law)
 
-Semi-minor axis b
+Notes:
 
-Star position along x-axis (focus)
+This is a visual demonstration, not a precise physics simulation.
 
-Second Law Visualization
+Experiment with different a, b, and star positions to see different elliptical orbits.
 
-Shows speed variation along the orbit using a color map.
+Speed variation is approximated to illustrate Kepler’s Second Law visually.
 
-Simulates the planet moving faster near the star and slower when farther away.
-
-Same input parameters as above.
-
-Notes
-
-This is a visual demonstration only.
-
-You can experiment with different values of a, b, and star position to see various elliptical shapes.
-
-The second law uses a simple approximation to show speed variation; it is not a precise physical simulation.
